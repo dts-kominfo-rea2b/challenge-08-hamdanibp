@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2D2926;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background: #2D2926;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+#app {
+  width: 100%;
+  max-width: 768px;
+  background: #E94B3C;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#todo-title {
+  padding: 0 100px;
+}
+
+#todo-title h1 {
+  font-size: 41px;
+}
+
+#todo-subtitle {
+  font-size: 19px;
+  margin-top: -10px;
+  font-weight: 200;
+}
+
+#form-wrapper {
+  margin-top: 10px;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#todo-input {
+  flex: 1;
+  padding: 7px 5px;
+  outline: none;
+  border: 1px solid #2D2926;
+}
+
+#todo-submit {
+  border: none;
+  background: #2D2926;
+  color: #E94B3C;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+#todo-output {
+  margin-top: 22px;
+  padding: 10px 30px;
+  background: #fafafa;
+  border: 2px solid #2D2926;
+  border-radius: 5px;
+}
+
+#todo-output h2 {
+  text-align: center;
+  color: #E94B3C;
+  text-decoration: underline;
+}
+
+#todo-output li {
+  color: #2D2926;
+  text-transform: capitalize;
+  font-weight: 600;
+}
